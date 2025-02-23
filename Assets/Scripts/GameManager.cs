@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     
     // 상태
     public enum State {Start, Play, End}
+
     public State GameState { get; private set; } = State.Start;
     
     // 싱글턴
